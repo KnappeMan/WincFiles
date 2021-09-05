@@ -1,0 +1,70 @@
+body { 
+    color-scheme: 85;
+    font-style: oblique;
+}
+.black-border {
+    text-align: center;
+    border: 5px groove green;
+    background-color: yellow;
+    color: green;
+    font-weight: bold;
+    
+}
+.orange-border {
+    border: 5px groove orange;
+}
+#green-background {
+    background-color: green;
+    color: yellow;
+    font-size: x-large ;
+    width:fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 25px;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h2, h3, h4, p, img, form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.ganaarpagina {
+    margin: 25px;
+}
+nav li{
+    display: inline;
+    font-size: 30px;
+}
+a {
+    padding: 2em;
+}
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+footer {
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   }
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: mediumpurple;
+        color: orange;
+        font-size: .9em;
+        line-height: 25px;
+}

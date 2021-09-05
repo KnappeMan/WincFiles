@@ -4,7 +4,7 @@
 <head>
     <!-- hier zet je de code in de head tags -->
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title> Opdracht: links, images, lists </title>
+    <title> Opdracht: groter contactformulier </title>
 </head>
 <main>
     <!-- hier zet je de code in de body tags-->
@@ -23,17 +23,46 @@
         </Nav>
 
         <p>Voor al uw vragen en of opmerkingen vul dan het contactformulier in.</p>
-
+    
         <form name="contact" method="POST" data-netlify="true">
             <label for="fname">Naam:</label>
-            <Input class="input" type="text" id="fname" name="fname"><br><br>
+            <Input type="text" id="fname" name="fname"><br><br>
             <label for="email">Emailadres:</label>
-            <Input class="input" type="email" id="email" name="email"><br><br>
-            <label for="remark">Opmerkingen:</label>
-            <Input class="input" type="text" id="remark" name="remark"><br><br>
+            <Input type="email" id="email" name="email"><br><br>
+            <label for="telephone">Telefoonnummer:</label>
+            <Input type="tel" id="telephone" name="telephone"><br><br>
+            <label for="age">Leeftijd:</label>
+            <Input type="number" id="age" name="age"><br><br>
+            <label for="birthdate">Geboortedatum:</label>
+            <input type="date" id="birthdate" name="birthdate"><br><br>
+            <label for="gender">Geslacht:</label><br>
+            <input type="radio" id="man" name="gender" value="Man">
+            <label for="Man">Man</label><br>
+            <input type="radio" id="vrouw" name="gender" value="Vrouw">
+            <label for="Vrouw">Vrouw</label><br><br>
+            <label for="favcuisine">Favoriete keuken:</label><br>
+            <input type="checkbox" id="french" name="french" value="Frans"> <label for="french">Franse
+                keuken</label><br>
+            <input type="checkbox" id="italian" name="italian" value="Italiaans"> <label for="italian">Italiaanse
+                keuken</label><br>
+            <input type="checkbox" id="spanish" name="spanish" value="Spaans"> <label for="spanish">Spaanse
+                keuken</label><br>
+            <input type="checkbox" id="arabic" name="arabic" value="Arabisch"> <label for="arabic">Arabische
+                keuken</label><br><br>
+            <label for="colorpicker">Favoriete kleur van schort:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <label for="biography">Biografie:</label><br>
+            <textarea id="biography" name="biography"></textarea><br><br>
+            <label for="uploadfile">Upload hier je laatste recept:</label>
+            <input type="file" id="file" name="file"><br><br>
+            <label for="url">URL van je receptenwebsite:</label>
+            <Input type="url" id="url" name="url"><br><br>
+            <label for="reset">Druk op resetten om je hele formulier leeg te maken:</label>
+            <input type="reset"><br><br>
+            <label for="submit">Druk op verzenden om je formulier te verzenden:</label>
             <Input type="submit">
         </form>
-
+    
     </body>
 
 </main>
